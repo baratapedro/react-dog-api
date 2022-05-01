@@ -33,6 +33,7 @@ export function Home() {
     }, [])
 
     async function handleSelectBreed() {
+        setCurrentSubBreed('')
         if (value == null) {
             setLoading(true)
             const imageRandom = await axios.get<Homeprops>('https://dog.ceo/api/breeds/image/random/6').then(response => response.data.message)
