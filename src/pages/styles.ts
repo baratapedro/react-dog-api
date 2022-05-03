@@ -26,7 +26,7 @@ export const Images = styled.main`
     grid-template-columns: 1fr 1fr 1fr;
     grid-row-gap: 20px;
     justify-items: center;
-    margin-top: 20px;
+    margin: 20px 0 20px;
     
 
     img {    
