@@ -29,20 +29,34 @@ export const Images = styled.main`
     margin-top: 20px;
     
 
-    img {
-        width: 400px;
+    img {    
         height: 400px;  
+        width: 100%;;
     }
 
     .card {
             background: whitesmoke;
             height: 450px;
+            width: 90%;
             display: flex;
             align-items: flex-start;
             border-radius: 10px;
             border: 1px solid lightgray;
        
         }
+
+        @media only screen and (max-width: 1000px) {
+            display: grid;
+    grid-template-columns: 1fr 1fr;
+           
+}
+
+@media only screen and (max-width: 500px) {
+            display: grid;
+    grid-template-columns: 1fr;
+           
+}
+
 `
 
 export const Subbreed = styled.div`
