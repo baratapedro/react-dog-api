@@ -61,11 +61,19 @@ export const Images = styled.main`
 
 export const Subbreed = styled.div`
    display: flex;
-   justify-content: center;
+    justify-content: center;
 
     .title {
         display: flex;
         justify-content: center;
         color: black;
     }
+    
+    @media only screen and (max-width: 500px) {
+           .subbreeds {
+               justify-content: center;
+           }
+           
+}
+    
 `

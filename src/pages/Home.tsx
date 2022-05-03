@@ -104,6 +104,7 @@ export function Home() {
                                 aria-labelledby="demo-radio-buttons-group-label"
                                 name="radio-buttons-group"
                                 row
+                                className='subbreeds'
                             >
                                 {
                                     subBreeds.map(subbreed =>
